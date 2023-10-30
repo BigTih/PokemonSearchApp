@@ -31,7 +31,7 @@ function displayPokemon(pokemon) {
         });
     } else {
         const listItem = document.createElement('li');
-        listItem.textContent = 'No books found.';
+        listItem.textContent = 'No pokemon found.';
         resultsList.appendChild(listItem);
     }
 }
