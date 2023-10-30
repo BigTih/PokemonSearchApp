@@ -17,12 +17,13 @@ button {
 }
 
 ul {
+    border: 1px solid #ccc;
     list-style-type: none;
     padding: 0;
 }
 
 li {
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;
     margin-top: 10px;
-    padding: 10px;
+    padding: 10px;*/
 }
