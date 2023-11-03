@@ -48,6 +48,15 @@ function displayPokemon(pokemon) {
         const listWeight = document.createElement('li');
         listWeight.textContent = "Weight: "+weight;
         resultsList.appendChild(listWeight);
+
+        const button = document.createElement("button");
+        button.innerHTML = "Moves";
+        resultsList.appendChild(button);
+
+        localStorage.setItem('pokemonData', JSON.stringify(pokemon));
+        button.addEventListener('click', () => {
+            window.location.href = "moves.html";
+          });
     }
     //if (pokemon && pokemon.length > 0) {
 
