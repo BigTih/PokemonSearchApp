@@ -3,6 +3,7 @@ const searchBtn = document.getElementById('searchBtn');
 const searchInput = document.getElementById('searchInput');
 const resultsList = document.getElementById('resultsList');
 
+
 searchBtn.addEventListener('click', function() {
     const query = searchInput.value.trim();
     fetchPokemon(query);

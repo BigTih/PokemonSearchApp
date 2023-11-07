@@ -10,11 +10,50 @@ body {
     margin: 0 auto;
 }
 
-button {
-    padding: 10px 15px;
-    margin-top: 10px;
-    cursor: pointer;
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
+
+.search-box input[type="text"] {
+padding: 10px;
+border: 1px solid #ddd;
+border-radius: 4px;
+width: 300px;
+margin-right: 10px;
+}
+
+.search-box input[id="searchBtn"] {
+padding: 10px 20px;
+border: none;
+background-color: #f09a36;
+color: white;
+cursor: pointer;
+border-radius: 4px;
+}
+
+/* Add some hover effect on the button */
+.search-box input[id="searchBtn"]:hover {
+background-color: #e68920;
+}
+
+/*button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #58abf6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #4a95e2;
+}*/
 
 ul {
     border: 1px solid #ccc;
